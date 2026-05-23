@@ -1,51 +1,52 @@
-import type { ServicesContent } from "../types";
+import type { ServiceItemConfig } from "../types";
 
-export const SERVICES_CONTENT: ServicesContent = {
-  sectionId: "services",
-  eyebrow: "// НАШИ УСЛУГИ",
-  title: "Цифровые решения для вашего бизнеса",
-  description:
-    "Проектируем, запускаем и развиваем продукты, которые выглядят чисто, работают быстро и выдерживают реальные нагрузки.",
-  services: [
-    {
-      id: "websites",
-      title: "Создание сайтов под ключ",
-      description:
-        "Корпоративные сайты, лендинги и веб-платформы с продуманной архитектурой, аналитикой и адаптивным интерфейсом.",
-      href: "/services/websites",
-      icon: "browser",
-    },
-    {
-      id: "mobile-apps",
-      title: "Разработка мобильных приложений (iOS и Android)",
-      description:
-        "Нативные и кроссплатформенные приложения с удобными сценариями, стабильной логикой и масштабируемым API.",
-      href: "/services/mobile-apps",
-      icon: "smartphone",
-    },
-    {
-      id: "complex-systems",
-      title: "Сложные системы: CRM, LMS и маркетплейсы",
-      description:
-        "Внутренние кабинеты, образовательные платформы, торговые системы и автоматизация бизнес-процессов.",
-      href: "/services/systems",
-      icon: "network",
-    },
-    {
-      id: "product-design",
-      title: "UI/UX Дизайн и проектирование интерфейсов",
-      description:
-        "Исследуем пользовательские сценарии, собираем дизайн-системы и проектируем интерфейсы для роста продукта.",
-      href: "/services/design",
-      icon: "pen-tool",
-    },
-    {
-      id: "support-growth",
-      title: "Техническая поддержка и развитие",
-      description:
-        "Поддерживаем релизы, улучшаем производительность, закрываем технический долг и развиваем продукт после запуска.",
-      href: "/services/support",
-      icon: "life-buoy",
-    },
-  ],
-};
+export const SERVICES_SECTION_ID = "services";
+
+export const SERVICE_ITEMS: ServiceItemConfig[] = [
+  {
+    id: "websites",
+    orderLabel: "// 01",
+    href: "/services/websites",
+    icon: "browser",
+    tone: "cyan",
+    layoutClassName: "md:col-span-2",
+    isFeatured: true,
+    visual: "code",
+  },
+  {
+    id: "mobile-apps",
+    orderLabel: "// 02",
+    href: "/services/mobile-apps",
+    icon: "smartphone",
+    tone: "blue",
+    layoutClassName: "md:col-span-1",
+    visual: "mobile",
+  },
+  {
+    id: "complex-systems",
+    orderLabel: "// 03",
+    href: "/services/systems",
+    icon: "network",
+    tone: "violet",
+    layoutClassName: "md:col-span-1",
+    visual: "systems",
+  },
+  {
+    id: "product-design",
+    orderLabel: "// 04",
+    href: "/services/design",
+    icon: "pen-tool",
+    tone: "cyan",
+    layoutClassName: "md:col-span-1",
+    visual: "design",
+  },
+  {
+    id: "support-growth",
+    orderLabel: "// 05",
+    href: "/services/support",
+    icon: "life-buoy",
+    tone: "blue",
+    layoutClassName: "md:col-span-1",
+    visual: "support",
+  },
+];

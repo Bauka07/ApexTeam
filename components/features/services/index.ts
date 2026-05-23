@@ -1,2 +1,12 @@
 export { ServicesSection, default } from "./ServicesSection";
-export type { ServiceItem, ServicesContent, ServicesSectionProps } from "./types";
+export type {
+  LocalizedServiceItem,
+  ServiceCardTone,
+  ServiceCopy,
+  ServiceIconName,
+  ServiceItemConfig,
+  ServiceItemId,
+  ServicesLocalizedContent,
+  ServicesSectionProps,
+  ServiceVisualKind,
+} from "./types";

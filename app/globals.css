@@ -51,8 +51,38 @@ button {
   -webkit-tap-highlight-color: transparent;
 }
 
+.apex-border-trail::before {
+  position: absolute;
+  inset: -45%;
+  z-index: 0;
+  pointer-events: none;
+  content: "";
+  background:
+    conic-gradient(
+      from 0deg,
+      transparent 0deg,
+      transparent 116deg,
+      rgb(34 211 238 / 0.72) 146deg,
+      rgb(37 99 235 / 0.72) 172deg,
+      rgb(124 58 237 / 0.72) 202deg,
+      transparent 236deg,
+      transparent 360deg
+    );
+  animation: apex-border-trail 7s linear infinite;
+}
+
+@keyframes apex-border-trail {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
 @media (prefers-reduced-motion: reduce) {
   html {
     scroll-behavior: auto;
+  }
+
+  .apex-border-trail::before {
+    animation: none;
   }
 }

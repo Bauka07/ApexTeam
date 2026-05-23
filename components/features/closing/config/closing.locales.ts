@@ -40,6 +40,47 @@ export const CLOSING_LOCALIZATION: Record<
         },
       },
     },
+    testimonials: {
+      eyebrow: "// ОТЗЫВЫ КЛИЕНТОВ",
+      title: "Доверие команд, которым нужна скорость и качество",
+      description:
+        "Короткие истории о том, как ApexTeam превращает сложные идеи в стабильные цифровые продукты.",
+      verifiedLabel: "Verified",
+      items: {
+        techcorp: {
+          clientName: "Амина Садыкова",
+          role: "CEO",
+          company: "TechCorp",
+          quote:
+            "ApexTeam быстро разобрались в бизнес-логике и запустили платформу без лишней бюрократии. Коммуникация была прозрачной на каждом спринте.",
+          projectTag: "E-commerce Platform",
+        },
+        startupx: {
+          clientName: "Марат Рахимов",
+          role: "Founder",
+          company: "StartupX",
+          quote:
+            "Команда помогла превратить MVP в продукт, который выдерживает рост нагрузки. Особенно сильны в архитектуре, frontend-деталях и чистой поставке.",
+          projectTag: "SaaS MVP",
+        },
+        bigflow: {
+          clientName: "Елена Ким",
+          role: "Product Manager",
+          company: "BigFlow",
+          quote:
+            "Мы получили не просто интерфейс, а понятную систему для пользователей и команды. Решения по UX и скорости разработки были очень зрелыми.",
+          projectTag: "Mobile App",
+        },
+        servicepro: {
+          clientName: "Данияр Нурлан",
+          role: "Director",
+          company: "ServicePro",
+          quote:
+            "ApexTeam аккуратно собрали CRM-процессы, автоматизировали ручные операции и оставили нам понятную основу для дальнейшего развития.",
+          projectTag: "CRM Automation",
+        },
+      },
+    },
     brief: {
       title: "Интерактивная заявка",
       description:
@@ -109,6 +150,47 @@ export const CLOSING_LOCALIZATION: Record<
         },
       },
     },
+    testimonials: {
+      eyebrow: "// КЛИЕНТТЕР ПІКІРІ",
+      title: "Жылдамдық пен сапаға сенетін командалар",
+      description:
+        "ApexTeam күрделі идеяларды тұрақты цифрлық өнімге қалай айналдыратыны туралы қысқа пікірлер.",
+      verifiedLabel: "Verified",
+      items: {
+        techcorp: {
+          clientName: "Амина Садыкова",
+          role: "CEO",
+          company: "TechCorp",
+          quote:
+            "ApexTeam бизнес-логиканы тез түсініп, платформаны артық бюрократиясыз іске қосты. Әр спринтте коммуникация ашық болды.",
+          projectTag: "E-commerce Platform",
+        },
+        startupx: {
+          clientName: "Марат Рахимов",
+          role: "Founder",
+          company: "StartupX",
+          quote:
+            "Команда MVP-ді өсетін жүктемеге дайын өнімге айналдыруға көмектесті. Архитектурада, frontend детальдарында және таза жеткізуде өте мықты.",
+          projectTag: "SaaS MVP",
+        },
+        bigflow: {
+          clientName: "Елена Ким",
+          role: "Product Manager",
+          company: "BigFlow",
+          quote:
+            "Біз жай интерфейс емес, пайдаланушылар мен командаға түсінікті жүйе алдық. UX және әзірлеу жылдамдығы бойынша шешімдері өте жетілген.",
+          projectTag: "Mobile App",
+        },
+        servicepro: {
+          clientName: "Данияр Нурлан",
+          role: "Director",
+          company: "ServicePro",
+          quote:
+            "ApexTeam CRM-процестерді ұқыпты жинап, қолмен жасалатын операцияларды автоматтандырды және әрі қарай дамытуға таза негіз қалдырды.",
+          projectTag: "CRM Automation",
+        },
+      },
+    },
     brief: {
       title: "Интерактивті өтінім",
       description:
@@ -175,6 +257,47 @@ export const CLOSING_LOCALIZATION: Record<
           title: "Release and Support",
           details:
             "We configure CI/CD deployment, Docker orchestration, cloud infrastructure, and 24/7 monitoring after launch.",
+        },
+      },
+    },
+    testimonials: {
+      eyebrow: "// CLIENT TESTIMONIALS",
+      title: "Trusted by teams that move fast and ship carefully",
+      description:
+        "Short notes on how ApexTeam turns complex product ideas into stable digital systems.",
+      verifiedLabel: "Verified",
+      items: {
+        techcorp: {
+          clientName: "Amina Sadykova",
+          role: "CEO",
+          company: "TechCorp",
+          quote:
+            "ApexTeam understood the business logic quickly and launched the platform without unnecessary process drag. Communication stayed clear every sprint.",
+          projectTag: "E-commerce Platform",
+        },
+        startupx: {
+          clientName: "Marat Rakhimov",
+          role: "Founder",
+          company: "StartupX",
+          quote:
+            "The team helped us turn an MVP into a product ready for growing traffic. Their architecture, frontend detail, and delivery discipline stood out.",
+          projectTag: "SaaS MVP",
+        },
+        bigflow: {
+          clientName: "Elena Kim",
+          role: "Product Manager",
+          company: "BigFlow",
+          quote:
+            "We received more than an interface: it became a clear system for users and our internal team. The UX and delivery decisions felt mature.",
+          projectTag: "Mobile App",
+        },
+        servicepro: {
+          clientName: "Daniyar Nurlan",
+          role: "Director",
+          company: "ServicePro",
+          quote:
+            "ApexTeam shaped our CRM workflows carefully, automated manual operations, and left us with a clean foundation for future growth.",
+          projectTag: "CRM Automation",
         },
       },
     },

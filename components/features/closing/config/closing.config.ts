@@ -1,4 +1,9 @@
-import type { BudgetRangeId, ProjectTypeId, WorkflowStepConfig } from "../types";
+import type {
+  BudgetRangeId,
+  ProjectTypeId,
+  TestimonialConfig,
+  WorkflowStepConfig,
+} from "../types";
 
 export const WORKFLOW_STEPS: WorkflowStepConfig[] = [
   {
@@ -20,6 +25,34 @@ export const WORKFLOW_STEPS: WorkflowStepConfig[] = [
   {
     id: "release",
     order: "05",
+  },
+];
+
+export const TESTIMONIALS: TestimonialConfig[] = [
+  {
+    avatarInitials: "AS",
+    id: "techcorp",
+    rating: 5,
+    tone: "cyan",
+  },
+  {
+    avatarInitials: "MR",
+    id: "startupx",
+    isFeatured: true,
+    rating: 5,
+    tone: "violet",
+  },
+  {
+    avatarInitials: "EK",
+    id: "bigflow",
+    rating: 5,
+    tone: "blue",
+  },
+  {
+    avatarInitials: "DN",
+    id: "servicepro",
+    rating: 5,
+    tone: "amber",
   },
 ];
 

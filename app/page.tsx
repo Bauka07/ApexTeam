@@ -1,3 +1,4 @@
+import { ClosingSections } from "@/components/features/closing";
 import { Hero } from "@/components/features/hero";
 import { PortfolioSection } from "@/components/features/portfolio";
 import { PricingSection } from "@/components/features/pricing";
@@ -10,6 +11,7 @@ export default function Home() {
       <ServicesSection />
       <PortfolioSection />
       <PricingSection />
+      <ClosingSections />
     </>
   );
 }

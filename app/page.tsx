@@ -1,4 +1,5 @@
 import { Hero } from "@/components/features/hero";
+import { PortfolioSection } from "@/components/features/portfolio";
 import { ServicesSection } from "@/components/features/services";
 
 export default function Home() {
@@ -6,6 +7,7 @@ export default function Home() {
     <>
       <Hero />
       <ServicesSection />
+      <PortfolioSection />
     </>
   );
 }
